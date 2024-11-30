@@ -21,7 +21,7 @@ class TestAddToCartButton:
             # Открываем страницу товара
             browser.get("http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/")
             print("Start test")
-            time.sleep(5)
+            time.sleep(30)
 
             # Неявное ожидание для загрузки страницы
             browser.implicitly_wait(3)
